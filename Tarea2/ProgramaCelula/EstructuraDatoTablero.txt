@@ -1,0 +1,5 @@
+-El tablero para utilizar puede ser una matriz 2x2, para representar renglones y columnas.
+-Crear una función para delimitar dicho tablero, tanto en sus columnas como en sus renglones
+-Crear funciones para establecer los valores de columna y renglones, así como para obtenerlos.
+-Crear función para obtener y establecer la célula, en que espacio de la dimensión del arreglo se encuentra.
+-Crear una función para eliminar o limpiar célula muerta del tablero.

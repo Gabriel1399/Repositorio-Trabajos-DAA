@@ -1,0 +1,2 @@
+IDE utilizado: Visual Studio Code para lenguaje Python
+Se adjunta archivo del pseudocódigo y diagrama de flujo creados en PSeInt

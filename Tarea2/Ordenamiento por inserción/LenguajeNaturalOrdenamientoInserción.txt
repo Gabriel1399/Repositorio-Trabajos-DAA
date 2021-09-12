@@ -1,0 +1,7 @@
+-Declarar un arreglo de n elementos
+-Iniciar variable para el límite de elementos ordenados (cero)
+-Iniciar variable para el número de pasadas (límite ordenados más uno)
+-En un ciclo recorrer los elemetos del arreglo iniciando en la posición cero mas uno.
+-Iniciar variable de comparación en el límite de ordenados más uno.
+-Ciclo mientras el índice de comparación sea mayor a uno y si el contenido del arreglo en el índice es menor al contenido del arreglo en el índice menos uno.
+-Intercambiar el contenido del arreglo en la posicion indice por el contenido del arreglo en la posicion del indice menos uno.

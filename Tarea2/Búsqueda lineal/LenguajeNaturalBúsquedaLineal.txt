@@ -1,0 +1,6 @@
+-Declara un arreglo de n elementos
+-Declara el elemento a buscar en el arreglo
+-En un ciclo de repeticion, declarar un indicecon valor 0, comparar el arreglo en su elemento indice con el elemento a buscar
+-Si el arreglo en el indice es igual a el elemento a buscar, finaliza el ciclo e indicar exito en la busqueda
+-Si no, aumenta el valor del indice hasta la longitud del arreglo
+-Si el elemento buscado no se encuentra en el arreglo, indicar fracaso. 

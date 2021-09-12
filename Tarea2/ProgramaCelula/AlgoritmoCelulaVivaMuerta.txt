@@ -1,0 +1,10 @@
+-Iniciar el tablero con las dimensiones requeridas.
+-Valor para célula viva = 1; valor para célula muerta = 0.
+-Iniciar con un numero determinado de células vivas en el tablero.
+-Mostrar en el tablero las células vivas y muertas.
+-Determinar para cada célula, cuantos vecinos vivos la rodean, alojarlo en un contador.
+-Si la célula está viva y el número de vecinos vivos es igual a 0 o 1, la célula pasara a estado de muerta en la próxima generación.
+-Si la célula está viva y el número de vecinos vivos es 4 o más, la célula pasa a estado de muerta por sobrepoblación.
+-Si la célula está muerta y tiene exactamente tres vecinos vivos, la célula pasa a estado de viva en la siguiente generación.
+-Todas las células muertas tendrán ese estado en la próxima generación.
+-Actualizar datos y mostrar en el tablero la siguiente generación hasta cumplir con el número solicitado. 
