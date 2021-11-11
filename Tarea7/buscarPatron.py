@@ -7,13 +7,14 @@ def string_match_brute(A, P):
             else:
                 break
         if j+1 == len(P) and A[i+j] == P[j]:
+            print(f"Se encontro {P} en la posicion: {i}")
             contador+=1
-    return contador
+    print(f"El patron {P} se encontro {contador} veces\n")
 
 def impresion(A, P1, P2, P3):
-    print(f"El patron {P1} se encuentra en el texto {string_match_brute(A, P1)} veces")
-    print(f"El patron {P2} se encuentra en el texto {string_match_brute(A, P2)} veces")
-    print(f"El patron {P3} se encuentra en el texto {string_match_brute(A, P3)} veces")
+    string_match_brute(A, P1)
+    string_match_brute(A, P2)
+    string_match_brute(A, P3)
 
 f = open("el_quijote_ii.txt", "r", encoding="utf8")
 entrada = f.read()
